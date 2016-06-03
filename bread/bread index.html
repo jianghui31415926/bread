@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<script src="jquery.js"></script>
+<head>
+<style>
+/*clear*/
+a{text-decoration:none;}
+h1{font-weight:normal;}
+body,h1,h2,p{margin:0}
+input{margin:0;padding:0;border:none;outline:none;}
+.clearfix{clear:both;}
+*{font-family:"微软雅黑","arial";color:#999999;font-size:12px}
+img{border:none;display:block;}
+/*header*/
+.header{width:1000px;margin-left:auto;margin-right:auto;}
+.header .logo{display:block;width:89px;margin-left:auto;margin-right:auto;}
+.search_box{float:right;}
+.header input,.header img,.header dd{float:left;} 
+.header input{border:solid 1px #f2f2f2;width:154px;height:18px;}
+.header dd{line-height:20px;margin-left:12px}
+/*nav*/
+.nav_box{border-top:solid 1px #f2f2f2;border-bottom:solid 1px #f2f2f2;margin-bottom:10px}
+.nav{width:1002px;margin-left:auto;margin-right:auto;}
+.nav a{text-align:center;display:block;padding-top:10px;padding-bottom:10px;font-size:20px;width:167px;float:left}
+.nav a:hover{border-bottom:solid 3px #422300;padding-bottom:7px;color:#422300;font-weight:bold;}
+/*banner*/
+.banner_box{overflow:hidden;}
+.banner{position:relative;left:50%;margin-left:-960px;}
+/*main*/
+.main{width:1000px;margin-left:auto;margin-right:auto;padding-top:30px}
+.title a{float:left;color:#422300;font-size:30px;}
+.title img{float:right;}
+.title{padding-bottom:20px}
+.product{width:30%;padding-left:12px;padding-right:12px;float:left;}
+.product img{margin-bottom:20px;}
+.product h1{line-height:30px;font-size:18px;color:#1a1a1a;padding-left:12px;padding-top:20px}
+.product p{padding-left:12px;}
+.product a img{margin-top:15px;padding-left:12px;}
+/*about us*/
+.about_us{width:1000px;margin-left:auto;margin-right:auto;margin-top:60px}
+.about_us .photo{float:left;}
+.about_us .text{float:right;width:471px;background-color:#f2f2f2;height:350px}
+.text p{padding-left:32px;line-height:20px}
+.text img{padding-top:30px;padding-left:32px;padding-bottom:30px;padding-bottom:28px;}
+.text .line_1{margin-bottom:16px}
+/*news*/
+.news{width:1000px;margin-left:auto;margin-right:auto;}
+.news .title{width:1000px;margin-left:auto;margin-right:auto;padding-top:25px;}
+.title img{padding-bottom:38px;}
+.news_1,.news_2,.news_3{float:left;}
+.news_1 img{width:319px}
+.news h1{font-size:16px;font-height:32px;color:black;}
+.news_1 p{font-size:12px;font-height:20px;padding-bottom:24px;width:321px}
+.news_1 dl{width:319px;}
+.news h2{float:left;font-height:22px;font-weight:normal;color:black}
+.news_1 .more{float:right;border:solid 1px black;line-height:20px;padding-left:8px;padding-right:8px}
+.news right{float:left;}
+.news_2,.news_3{padding-left:19px;}
+.news_2 dl{width:207px;}
+.news_2 dl img{float:right;}
+.news_3{width:660px;margin-top:28px}
+.news_3 .more{float:right;border:solid 1px black;line-height:20px;padding-left:8px;padding-right:8px}
+.news_3 img{float:left}
+.news_3 .text{width:435px;float:right;}
+.news_3 .passage{font-size:12px;font-height:20px;padding-bottom:40px;}
+/*footer*/
+.footer_box{background-color:#dfdfdf;}
+.footer{margin-top:56px;width:526px;margin-left:auto;margin-right:auto;background-color:#dfdfdf;padding-bottom:46px}
+.footer img{float:left;}
+.footer p{float:right;color:#615945;line-height:20px;padding-top:43px}
+.footer p span{font-family:arial;color:#666666;line-height:20px;}
+.footer img{padding-top:58px}
+</style>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<div class="header_box">
+    <div class="header">
+        <a class="logo"><img src="images/logo.png"></a>
+        <dl class="search_box">
+            <input class="search"><img src="images/search.png"><dd><a href="">中文版</a> 丨 <a href="">English</a></dd></dl>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="nav_box">
+  <div class="nav">
+        <a href="">网站首页</a><a href="">产品系列</a><a href="">关于我们</a><a href="">主厨介绍</a><a href="">最近新闻</a><a href="">联系我们</a>
+   	    <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="banner_box">
+   <img class="banner" src="images/banner1.png">
+</div>
+
+<div class="main_box">
+  <div class="main">
+    	<div class="title"><a href="">PRPDUCTS&nbsp;丨&nbsp;产品鉴赏</a><img src="images/more.png"></div>
+        <div class="clearfix"></div>
+        <div class="product"><img src="images/bread3.png"><h1>红酒甜甜圈 18￥</h1><p>成份：汤种老面、奶油奶酪、加州葡萄干、红酒.</p><p>可爱的外观总是会给人带来一些稚气童心，当味觉与面包相
+接触的时候惊喜才会浮现。</p><a href=""><img src="images/enter.png"></a></div>
+        <div class="product"><h1>皇冠 22￥</h1><p>成份：天然老面、洋葱面团、奶油奶酪。</p><p>一颗颗小小的面团围绕凝聚在一起，如同公主头顶上华贵的皇冠。</p><a href="">
+<img src="images/enter.png"></a><img src="images/bread1.png"></div>
+		<div class="product"><img src="images/bread5.png"><h1>火腿奶酪 22￥</h1><p>成份：天然老面、洋葱面团、蒜泥奶油、火腿片、青葱末。</p><p>火腿以其无处不在的姿态，和蒜泥奶油糅合在一起，并与洋
+葱面团欢乐嬉戏。</p><a href=""><img src="images/enter.png"></a></div>
+		<div class="product"><h1>黑旋风 18￥</h1><p>成份：汤种老面、研磨咖啡、巧克力豆、新西兰奶油。</p><p>深壑如纵谷般的形状，好让气孔舒适拓张，将每一丝香气都
+含在每一个气孔中，丰富的巧克力豆搅拌在Q软的面包体内。</p><a href=""><img src="images/enter.png"></a><img src="images/bread2.png"></div>
+		<div class="product"><img src="images/bread4.png"><h1>高纤奶酪 28￥</h1><p>成份：杂粮面团、蜂蜜、奶油奶酪、菠萝丁、综合谷粒。</p><p>富含多种健康的养生谷物，是居家早餐的必备品，口感上的
+满足，健康生活的好帮手。</p><a href=""><img src="images/enter.png"></a></div>
+		<div class="product"><h1>香蒜软法 18￥</h1><p>成份：芝士面团、蒜泥奶油、新西兰奶油。</p><p>芝士面团抹上的蒜泥奶油、总是想要去混淆你的味蕾神经，
+只有品尝过才知道香气是如何相辅相成。</p><a href=""><img src="images/enter.png"></a><img src="images/bread1.png"></div>      
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="about_us">
+     <img class="photo" src="images/about_us_40.png">
+     <div class="text">
+        <img src="images/about_us.png"><p class="line_1">我们的核心理念是“幸福”、“分享”，用心感受与家人、朋友分享的幸福感。</p><p>团队致力于研发健康无负担之产品，低糖、低油、低盐。不添加防腐剂、不加
+            香精、不使用反式脂肪酸奶油。加上台湾面包冠军林育玮主厨对老面的独特技术以及善用食材特性之专长，引领出食材最原始的美味，产品有着欧式面包的外观及粗犷、个头大的外表，一口咬下随即散发出浓郁麦香味，也因为“大”所以更适于分享。</p>
+        </div>
+     <div class="clearfix"></div>
+</div>
+
+<div class="news">
+	<div class="title"><img src="images/news_50.png"></div>
+    <div class="news_1"><img src="images/news_1.png"><a href=""><h1>原麦山丘北京开业不到两年大获成功</h1></a><p>“产品从不打折、不随随便便开新店、不做加盟、每家店设计都不一样，这就是原麦山丘的调性。”43岁的梁庭铨如此
+概括这个在北京只有5家店，却迅速走红的面包店。</p><dl><h2>07月29日</h2><a href=""><dd class="more">>更多</dd></a></dl></div>
+    <div class="right">
+        <div class="news_2"><img src="images/news_2.png"><a href=""><h1>外卖送来啦</h1></a><dl><h2>12月1日</h2><a href=""><img src="images/more.png"></a></dl></div>
+        <div class="news_2"><img src="images/news_3.png"><a href=""><h1>原麦山丘出冬季新款</h1></a><dl><h2>12月3日</h2><a href=""><img src="images/more.png"></a></dl></div>
+        <div class="news_2"><img src="images/news_4.png"><a href=""><h1>北京复古骑行野餐会</h1></a><dl><h2>12月6日</h2><a href=""><img src="images/more.png"></a></dl></div>
+        <div class="news_3">
+        	<img src="images/news_5.png">
+            <div class="text">
+            	<a href=""><h1>林老师参与BTV美食地图之吃迷世界杯节目录制</h1></a>
+            	<div class="passage">巴西世界杯，激情来袭！后半夜看球，独自谁来照看？别急，吃迷世界杯来拯救你！林老师参与BTV美食地图之吃迷世界杯节目录制。</div>
+                <h2>06月05日</h2>
+              <a href=""><div class="more">>更多</div></a></div>
+		</div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<div class="footer_box">
+	<div class="footer">
+    	<img src="images/footer_logo_71.png">
+        <p>原麦山丘门店地址：<br>北京_中关村店&nbsp;&nbsp;&nbsp;&nbsp;海淀区中关村大街15号E区地面一层1-024津乐汇百货<br>
+            北京_尚都SOHO门店&nbsp;&nbsp;&nbsp;&nbsp;朝阳区东大桥路8号SOHO尚都北塔一层2105<br>
+            北京_五道口店&nbsp;&nbsp;&nbsp;&nbsp;海淀区五道口成府路28号西街一号<br>
+            北京_崇文门新世界店&nbsp;&nbsp;&nbsp;&nbsp;东城区崇文门外大街3-5新世界综合馆一层南侧<br>
+            北京_西单店&nbsp;&nbsp;&nbsp;&nbsp;西单北大街133号君太百货2层<br>
+            <span>Copyright &copy; 2013-2015 原麦山丘 All Rights Reserved </span>
+        </p> 
+        <div class="clearfix"></div>   
+    </div>
+</div>
+
+
+<script>
+
+</script>
+</body>
+</html>
